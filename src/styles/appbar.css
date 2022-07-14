@@ -1,0 +1,76 @@
+.app-bar {
+	padding: 8px 16px;
+	display: grid;
+	background-color: #010101;
+	grid-template-columns: auto 1fr auto;
+	gap: 10px;
+	position: sticky;
+	top: 0;
+	z-index: 99;
+	border-bottom: 4px solid #cca000;
+}
+
+.app-bar .app-bar__menu {
+	display: flex;
+	align-items: center;
+}
+
+.app-bar .app-bar__menu button {
+	background-color: transparent;
+	font-size: 2.5em;
+	color: #fafafa;
+	border: none;
+	padding: 8px;
+	cursor: pointer;
+	margin-left: 5vw;
+}
+
+.app-bar .app-bar__brand {
+	width: 60vw;
+	display: flex;
+	align-items: center;
+}
+
+.app-bar .app-bar__brand h1 a {
+	text-decoration: none;
+	color: #cca000;
+	text-transform: uppercase;
+	font-size: 1.1em;
+	user-select: none;
+	margin-left: 20px;
+}
+
+.app-bar .app-bar__navigation {
+	position: absolute;
+	top: 50px;
+	left: -180px;
+	width: 200px;
+	transition: all 0.3s;
+	padding: 8px;
+	overflow: hidden;
+}
+
+.app-bar .app-bar__navigation.open {
+	top: 80px;
+	left: 0;
+	height: 100vh;
+	width: 65vw;
+	background-color: #010101;
+}
+
+.app-bar .app-bar__navigation ul li a {
+	display: inline-block;
+	text-decoration: none;
+	color: #fafafa;
+	padding: 8px;
+	margin: 12px;
+	font-size: 20px;
+	width: 100%;
+}
+
+.app-bar__navigation ul li a:hover {
+	display: inline-block;
+	text-decoration: none;
+	color: #cca000;
+	font-weight: bold;
+}
