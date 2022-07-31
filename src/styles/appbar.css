@@ -38,6 +38,7 @@
 	font-size: 1.1em;
 	user-select: none;
 	margin-left: 20px;
+	padding: 10px 0px;
 }
 
 .app-bar .app-bar__navigation {
@@ -66,6 +67,7 @@
 	margin: 12px;
 	font-size: 20px;
 	width: 100%;
+	padding: 12px 0px;
 }
 
 .app-bar__navigation ul li a:hover {

@@ -1,4 +1,5 @@
 const assert = require('assert');
+const { pause } = require('codeceptjs');
 
 Feature('Liking Restaurant');
 
