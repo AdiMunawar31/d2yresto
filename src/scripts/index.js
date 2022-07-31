@@ -5,7 +5,6 @@ import 'lazysizes/plugins/parent-fit/ls.parent-fit';
 import '../styles/main.css';
 import '../styles/appbar.css';
 import '../styles/hero.css';
-import '../styles/about.css';
 import '../styles/footer.css';
 import '../styles/card.css';
 import '../styles/detail.css';
